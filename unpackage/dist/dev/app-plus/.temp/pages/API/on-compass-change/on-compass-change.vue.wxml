@@ -1,0 +1,17 @@
+<import src="/components/page-head.vue.wxml" />
+<template name="0ac344ec">
+  <view class="_view data-v-4132b40e">
+    <template data="{{...$root['0'], ...$root[$kk+'XGL-0'],$root}}" is="896c2190"></template>
+    <view class="_view data-v-4132b40e uni-padding-wrap">
+      <view class="_view data-v-4132b40e uni-hello-text uni-center" style="padding-bottom:50rpx;"> 旋转手机即可获取方位信息 </view>
+      <view class="_view data-v-4132b40e direction">
+        <view class="_view data-v-4132b40e bg-compass-line"></view>
+        <image class="_image data-v-4132b40e bg-compass" src="../../../static/compass.png" style=" {{'transform: rotate(' + direction + 'deg)'}}"></image>
+        <view class="_view data-v-4132b40e direction-value">
+          <text class="_text data-v-4132b40e">{{direction}}</text>
+          <text class="_text data-v-4132b40e direction-degree">o</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

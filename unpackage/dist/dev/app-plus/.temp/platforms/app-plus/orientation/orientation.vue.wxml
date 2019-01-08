@@ -1,0 +1,16 @@
+<import src="/components/page-head.vue.wxml" />
+<template name="5c788aca">
+  <view class="_view data-v-3e02b11c">
+    <template data="{{...$root['0'], ...$root[$kk+'P2u-0'],$root}}" is="896c2190"></template>
+    <view class="_view data-v-3e02b11c uni-padding-wrap uni-common-mt">
+      <view class="_view data-v-3e02b11c uni-btn-v">
+        <button type="primary" bindtap="handleProxy" data-eventid="{{'5jA-0'}}" data-comkey="{{$k}}" class="_button data-v-3e02b11c">获取设备的方向信息</button>
+        <button type="primary" bindtap="handleProxy" data-eventid="{{'Z8r-1'}}" data-comkey="{{$k}}" class="_button data-v-3e02b11c">监听设备的方向变化</button>
+        <button type="primary" bindtap="handleProxy" data-eventid="{{'rJE-2'}}" data-comkey="{{$k}}" class="_button data-v-3e02b11c">停止监听</button>
+      </view>
+      <view class="_view data-v-3e02b11c uni-textarea">
+        <textarea value="{{value}}" class="_textarea data-v-3e02b11c" />
+      </view>
+    </view>
+  </view>
+</template>

@@ -1,0 +1,40 @@
+<import src="/components/page-head.vue.wxml" />
+<import src="/components/uni-badge.vue.wxml" />
+<template name="474a8ab2">
+  <view class="_view data-v-2f9581ca page">
+    <template data="{{...$root['0'], ...$root[$kk+'aoI-0'],$root}}" is="896c2190"></template>
+    <view class="_view data-v-2f9581ca uni-card">
+      <view class="_view data-v-2f9581ca uni-list">
+        <view class="_view data-v-2f9581ca uni-list-cell-divider"> 右侧带箭头 </view>
+        <view class="_view data-v-2f9581ca uni-list-cell" hover-class="uni-list-cell-hover">
+          <view class="_view data-v-2f9581ca uni-list-cell-navigate uni-navigate-right"> Item1 </view>
+        </view>
+        <view class="_view data-v-2f9581ca uni-list-cell uni-list-cell-last" hover-class="uni-list-cell-hover">
+          <view class="_view data-v-2f9581ca uni-list-cell-navigate uni-navigate-right"> Item2 </view>
+        </view>
+        <view class="_view data-v-2f9581ca uni-list-cell-divider"> 右侧带数字角标 </view>
+        <view class="_view data-v-2f9581ca uni-list-cell" hover-class="uni-list-cell-hover">
+          <view class="_view data-v-2f9581ca uni-list-cell-navigate"> Item2
+            <template text="1" type="danger" data="{{...$root['0'], ...$root[$kk+'i2A-1'],$root}}" is="31fecd60"></template>
+          </view>
+        </view>
+        <view class="_view data-v-2f9581ca uni-list-cell uni-list-cell-last" hover-class="uni-list-cell-hover">
+          <view class="_view data-v-2f9581ca uni-list-cell-navigate"> Item1
+            <template text="123" type="success" data="{{...$root['0'], ...$root[$kk+'Elr-2'],$root}}" is="31fecd60"></template>
+          </view>
+        </view>
+        <view class="_view data-v-2f9581ca uni-list-cell-divider"> 右侧带数字角标+箭头 </view>
+        <view class="_view data-v-2f9581ca uni-list-cell" hover-class="uni-list-cell-hover">
+          <view class="_view data-v-2f9581ca uni-list-cell-navigate uni-navigate-right uni-navigate-badge"> Item1
+            <template text="123" type="success" data="{{...$root['0'], ...$root[$kk+'q9A-3'],$root}}" is="31fecd60"></template>
+          </view>
+        </view>
+        <view class="_view data-v-2f9581ca uni-list-cell uni-list-cell-last" hover-class="uni-list-cell-hover">
+          <view class="_view data-v-2f9581ca uni-list-cell-navigate uni-navigate-right uni-navigate-badge"> Item2
+            <template text="12" type="primary" data="{{...$root['0'], ...$root[$kk+'8dY-4'],$root}}" is="31fecd60"></template>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

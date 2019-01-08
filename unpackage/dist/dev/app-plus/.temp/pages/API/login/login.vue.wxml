@@ -1,0 +1,23 @@
+<import src="/components/page-head.vue.wxml" />
+<template name="5bbf604c">
+  <view class="_view data-v-fc552c24">
+    <template data="{{...$root['0'], ...$root[$kk+'8LT-0'],$root}}" is="896c2190"></template>
+    <view class="_view data-v-fc552c24 uni-padding-wrap">
+      <view style="background:#FFF; padding:40rpx;" class="_view data-v-fc552c24">
+        <block wx:if="{{hasLogin === true}}">
+          <view class="_view data-v-fc552c24 uni-h3 uni-center uni-common-mt">已登录</view>
+          <view class="_view data-v-fc552c24 uni-hello-text uni-center">
+            <text class="_text data-v-fc552c24">每个账号仅需登录 1 次，\n后续每次进入页面即可自动拉取用户信息。</text>
+          </view>
+        </block>
+        <block wx:if="{{hasLogin === false}}">
+          <view class="_view data-v-fc552c24 uni-h3 uni-center uni-common-mt">未登录</view>
+          <view class="_view data-v-fc552c24 uni-hello-text uni-center"> 请点击按钮登录 </view>
+        </block>
+      </view>
+      <view class="_view data-v-fc552c24 uni-btn-v uni- uni-common-mt">
+        <button type="primary" class="_button data-v-fc552c24 page-body-button" bindtap="handleProxy" wx:key="key" key="{{key}}" data-eventid="{{'b13-0-'+key}}" data-comkey="{{$k}}" wx:for="{{providerList}}" wx:for-index="key" wx:for-item="value">{{value.name}}</button>
+      </view>
+    </view>
+  </view>
+</template>

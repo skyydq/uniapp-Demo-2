@@ -1,0 +1,1 @@
+<import src="/pages/template/comments/comments.vue.wxml" /><template is="74001832" data="{{ ...$root['0'], $root }}"/>

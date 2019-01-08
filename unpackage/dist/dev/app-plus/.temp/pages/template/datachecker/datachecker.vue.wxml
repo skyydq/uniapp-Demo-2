@@ -1,0 +1,40 @@
+<import src="/components/page-head.vue.wxml" />
+<template name="0ed08b10">
+  <view class="_view data-v-58ef283c">
+    <template data="{{...$root['0'], ...$root[$kk+'sKy-0'],$root}}" is="896c2190"></template>
+    <view class="_view data-v-58ef283c uni-padding-wrap">
+      <form bindsubmit="handleProxy" bindreset="handleProxy" data-eventid="{{'2aX-0'}}" data-comkey="{{$k}}" class="_form data-v-58ef283c">
+        <view class="_view data-v-58ef283c">
+          <view class="_view data-v-58ef283c uni-title">姓名</view>
+          <view class="_view data-v-58ef283c uni-list">
+            <view class="_view data-v-58ef283c uni-list-cell">
+              <input class="_input data-v-58ef283c uni-input" name="nickname" placeholder="请填写您的昵称" />
+            </view>
+          </view>
+        </view>
+        <view class="_view data-v-58ef283c">
+          <view class="_view data-v-58ef283c uni-title">性别</view>
+          <radio-group class="_radio-group data-v-58ef283c uni-flex" name="gender">
+            <label class="_label data-v-58ef283c">
+              <radio value="男" class="_radio data-v-58ef283c" />男</label>
+            <label class="_label data-v-58ef283c">
+              <radio value="女" class="_radio data-v-58ef283c" />女</label>
+          </radio-group>
+        </view>
+        <view class="_view data-v-58ef283c">
+          <view class="_view data-v-58ef283c uni-title">爱好</view>
+          <checkbox-group class="_checkbox-group data-v-58ef283c uni-flex" name="loves">
+            <label class="_label data-v-58ef283c">
+              <checkbox value="读书" class="_checkbox data-v-58ef283c"></checkbox>读书</label>
+            <label class="_label data-v-58ef283c">
+              <checkbox value="写字" class="_checkbox data-v-58ef283c"></checkbox>写字</label>
+          </checkbox-group>
+        </view>
+        <view class="_view data-v-58ef283c uni-btn-v uni-common-mt">
+          <button class="_button data-v-58ef283c btn-submit" formType="submit" type="primary">Submit</button>
+          <button type="default" formType="reset" class="_button data-v-58ef283c">Reset</button>
+        </view>
+      </form>
+    </view>
+  </view>
+</template>

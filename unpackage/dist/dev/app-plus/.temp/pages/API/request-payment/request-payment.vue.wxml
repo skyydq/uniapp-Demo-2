@@ -1,0 +1,17 @@
+<import src="/components/page-head.vue.wxml" />
+<template name="5846826c">
+  <view class="_view data-v-5971c0a8">
+    <template data="{{...$root['0'], ...$root[$kk+'Jtw-0'],$root}}" is="896c2190"></template>
+    <view class="_view data-v-5971c0a8 uni-padding-wrap">
+      <view style="background:#FFF; padding:50rpx 0;" class="_view data-v-5971c0a8">
+        <view class="_view data-v-5971c0a8 uni-hello-text uni-center">支付金额</view>
+        <view class="_view data-v-5971c0a8 uni-h1 uni-center uni-common-mt">
+          <text class="_text data-v-5971c0a8 rmbLogo">￥</text>0.01</view>
+        <view class="_view data-v-5971c0a8 uni-hello-text uni-center uni-common-mt">实际应用中可自定义金额</view>
+      </view>
+      <view class="_view data-v-5971c0a8 uni-btn-v uni-common-mt">
+        <button wx:key="index" key="{{index}}" bindtap="handleProxy" loading="{{item.loading}}" data-eventid="{{'k5s-0-'+index}}" data-comkey="{{$k}}" wx:for="{{providerList}}" wx:for-index="index" wx:for-item="item" class="_button data-v-5971c0a8">{{item.name}}支付</button>
+      </view>
+    </view>
+  </view>
+</template>

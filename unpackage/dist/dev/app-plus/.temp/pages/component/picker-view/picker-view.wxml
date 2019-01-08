@@ -1,0 +1,1 @@
+<import src="/pages/component/picker-view/picker-view.vue.wxml" /><template is="106c2e76" data="{{ ...$root['0'], $root }}"/>

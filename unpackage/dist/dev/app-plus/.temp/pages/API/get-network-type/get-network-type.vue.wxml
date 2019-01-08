@@ -1,0 +1,22 @@
+<import src="/components/page-head.vue.wxml" />
+<template name="1b963ff2">
+  <view class="_view data-v-588a969a">
+    <template data="{{...$root['0'], ...$root[$kk+'nyj-0'],$root}}" is="896c2190"></template>
+    <view class="_view data-v-588a969a uni-padding-wrap uni-common-mt">
+      <view style="background:#FFFFFF; padding:40rpx;" class="_view data-v-588a969a">
+        <view class="_view data-v-588a969a uni-hello-text uni-center">网络状态</view>
+        <block wx:if="{{hasNetworkType === false}}">
+          <view class="_view data-v-588a969a uni-h2 uni-center uni-common-mt">未获取</view>
+          <view class="_view data-v-588a969a uni-hello-text uni-center uni-common-mt">请点击下面按钮获取网络状态</view>
+        </block>
+        <block wx:if="{{hasNetworkType === true}}">
+          <view class="_view data-v-588a969a uni-h2 uni-center uni-common-mt">{{networkType}}</view>
+        </block>
+      </view>
+      <view class="_view data-v-588a969a uni-btn-v uni-common-mt">
+        <button type="primary" bindtap="handleProxy" data-eventid="{{'pHH-0'}}" data-comkey="{{$k}}" class="_button data-v-588a969a">获取手机网络状态</button>
+        <button bindtap="handleProxy" data-eventid="{{'yWu-1'}}" data-comkey="{{$k}}" class="_button data-v-588a969a">清空</button>
+      </view>
+    </view>
+  </view>
+</template>

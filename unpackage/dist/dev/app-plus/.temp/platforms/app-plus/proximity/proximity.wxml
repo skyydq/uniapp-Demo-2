@@ -1,0 +1,1 @@
+<import src="/platforms/app-plus/proximity/proximity.vue.wxml" /><template is="50324668" data="{{ ...$root['0'], $root }}"/>

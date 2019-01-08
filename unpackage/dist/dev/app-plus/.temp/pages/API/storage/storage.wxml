@@ -1,0 +1,1 @@
+<import src="/pages/API/storage/storage.vue.wxml" /><template is="41d8d7a0" data="{{ ...$root['0'], $root }}"/>

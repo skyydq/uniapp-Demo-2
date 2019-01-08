@@ -1,0 +1,11 @@
+<import src="/components/page-head.vue.wxml" />
+<template name="114f0075">
+  <view class="_view data-v-551905d7">
+    <template data="{{...$root['0'], ...$root[$kk+'FRE-0'],$root}}" is="896c2190"></template>
+    <view class="_view data-v-551905d7 uni-common-mt">
+      <view class="_view data-v-551905d7">
+        <map latitude="{{latitude}}" longitude="{{longitude}}" markers="{{covers}}" class="_map data-v-551905d7"></map>
+      </view>
+    </view>
+  </view>
+</template>

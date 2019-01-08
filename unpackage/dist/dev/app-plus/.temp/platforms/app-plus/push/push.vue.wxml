@@ -1,0 +1,21 @@
+<import src="/components/page-head.vue.wxml" />
+<template name="33b76fbc">
+  <view class="_view data-v-010eef8c">
+    <template data="{{...$root['0'], ...$root[$kk+'4Jq-0'],$root}}" is="896c2190"></template>
+    <view class="_view data-v-010eef8c uni-padding-wrap" wx:if="{{provider[0]}}">
+      <view class="_view data-v-010eef8c uni-btn-v uni-common-mt">
+        <button type="primary" bindtap="handleProxy" data-eventid="{{'WQV-0'}}" data-comkey="{{$k}}" class="_button data-v-010eef8c">开启push</button>
+        <button type="primary" bindtap="handleProxy" data-eventid="{{'m5f-1'}}" data-comkey="{{$k}}" class="_button data-v-010eef8c">关闭push</button>
+        <button type="primary" bindtap="handleProxy" data-eventid="{{'ZJR-2'}}" data-comkey="{{$k}}" class="_button data-v-010eef8c">监听透传数据</button>
+        <button type="primary" bindtap="handleProxy" data-eventid="{{'0Kg-3'}}" data-comkey="{{$k}}" class="_button data-v-010eef8c">移除监听透传数据</button>
+      </view>
+      <view class="_view data-v-010eef8c uni-btn-v uni-common-mt">
+        <button type="primary" bindtap="handleProxy" data-eventid="{{'hvr-4'}}" data-comkey="{{$k}}" class="_button data-v-010eef8c">发送"透传数据"消息</button>
+      </view>
+      <view class="_view data-v-010eef8c uni-title uni-common-mt">透传内容：</view>
+      <view class="_view data-v-010eef8c uni-textarea">
+        <textarea value="{{tranMsg}}" bindinput="handleProxy" data-eventid="{{'8lR-5'}}" data-comkey="{{$k}}" class="_textarea data-v-010eef8c" />
+      </view>
+    </view>
+  </view>
+</template>

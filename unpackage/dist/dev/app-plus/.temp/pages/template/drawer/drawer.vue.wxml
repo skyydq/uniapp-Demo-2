@@ -1,0 +1,15 @@
+<import src="/components/uni-icon.vue.wxml" />
+<import src="/components/uni-drawer.vue.wxml" />
+<template name="6c00aa92">
+  <view class="_view data-v-f20e9c2c">
+    <view class="_view data-v-f20e9c2c header">
+      <view class="_view data-v-f20e9c2c input-view">
+        <template type="search" size="22" color="#666666" data="{{...$root['0'], ...$root[$kk+'GGp-0'],$root}}" is="0a6a4d68"></template>
+        <input confirm-type="search" bindconfirm="handleProxy" class="_input data-v-f20e9c2c input" type="text" placeholder="输入搜索关键词" data-eventid="{{'qbB-0'}}" data-comkey="{{$k}}" />
+      </view>
+    </view>
+    <view class="_view data-v-f20e9c2c uni-padding-wrap" style="margin-top:30rpx;"> 这是抽屉式导航组件使用示例，可以指定菜单左侧或者右侧弹出（仅初始化生效），组件内部可以放置任何内容。点击页面右上角的按钮即可显示导航菜单。 </view>
+    <template mode="right" bindclose="handleProxy" data-eventid="{{'Fk2-4'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'XLq-1'],$root, $slotdefault:'data-v-f20e9c2c-default-XLq-1'}}"
+      is="2d5251f8"></template>
+  </view>
+</template>

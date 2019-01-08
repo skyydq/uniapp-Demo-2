@@ -1,0 +1,1 @@
+<import src="/pages/template/list-with-badges/list-with-badges.vue.wxml" /><template is="474a8ab2" data="{{ ...$root['0'], $root }}"/>

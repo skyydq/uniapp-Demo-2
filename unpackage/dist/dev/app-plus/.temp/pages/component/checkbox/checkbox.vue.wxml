@@ -1,0 +1,32 @@
+<import src="/components/page-head.vue.wxml" />
+<template name="8b3f37d6">
+  <view class="_view data-v-615131bd">
+    <template data="{{...$root['0'], ...$root[$kk+'Bz0-0'],$root}}" is="896c2190"></template>
+    <view class="_view data-v-615131bd uni-padding-wrap uni-common-mt">
+      <view class="_view data-v-615131bd uni-title uni-common-mt">默认样式</view>
+      <view class="_view data-v-615131bd">
+        <checkbox-group class="_checkbox-group data-v-615131bd">
+          <label class="_label data-v-615131bd">
+            <checkbox value="cb" checked="true" class="_checkbox data-v-615131bd"></checkbox>选中 </label>
+          <label class="_label data-v-615131bd">
+            <checkbox value="cb" class="_checkbox data-v-615131bd"></checkbox>未选中 </label>
+        </checkbox-group>
+      </view>
+    </view>
+    <view class="_view data-v-615131bd uni-padding-wrap">
+      <view class="_view data-v-615131bd uni-title uni-common-mt"> 推荐展示样式
+        <text class="_text data-v-615131bd">\n使用 uni-list 布局</text>
+      </view>
+    </view>
+    <view class="_view data-v-615131bd uni-list">
+      <checkbox-group bindchange="handleProxy" data-eventid="{{'o7G-0'}}" data-comkey="{{$k}}" class="_checkbox-group data-v-615131bd">
+        <label class="_label data-v-615131bd uni-list-cell uni-list-cell-pd" wx:key="item.value" key="{{item.value}}" wx:for="{{items}}" wx:for-index="index" wx:for-item="item">
+          <view class="_view data-v-615131bd">
+            <checkbox value="{{item.value}}" checked="{{item.checked}}" class="_checkbox data-v-615131bd"></checkbox>
+          </view>
+          <view class="_view data-v-615131bd">{{item.name}}</view>
+        </label>
+      </checkbox-group>
+    </view>
+  </view>
+</template>

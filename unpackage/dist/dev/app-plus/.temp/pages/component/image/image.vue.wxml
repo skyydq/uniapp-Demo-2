@@ -1,0 +1,20 @@
+<import src="/components/page-head.vue.wxml" />
+<template name="097275b3">
+  <view class="_view data-v-0d682955">
+    <template data="{{...$root['0'], ...$root[$kk+'ZF8-0'],$root}}" is="896c2190"></template>
+    <view class="_view data-v-0d682955 uni-padding-wrap uni-common-mt">
+      <view class="_view data-v-0d682955 uni-title"> 示例1
+        <text class="_text data-v-0d682955">\n本地图片</text>
+      </view>
+      <view class="_view data-v-0d682955 uni-center" style="background:#FFFFFF; font-size:0;">
+        <image class="_image data-v-0d682955 image" mode="widthFix" src="../../../static/uni.png"></image>
+      </view>
+      <view class="_view data-v-0d682955 uni-title uni-common-mt"> 示例2
+        <text class="_text data-v-0d682955">\n网络图片</text>
+      </view>
+      <view class="_view data-v-0d682955 uni-center" style="background:#FFFFFF; font-size:0;">
+        <image class="_image data-v-0d682955 image" mode="widthFix" src="https://img-cdn-qiniu.dcloud.net.cn/uniapp/images/uni@2x.png"></image>
+      </view>
+    </view>
+  </view>
+</template>

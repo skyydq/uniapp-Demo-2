@@ -1,0 +1,32 @@
+<import src="/components/mpvue-wxparse/src/wxParse.vue.wxml" />
+<template name="148c355c">
+  <view class="_view data-v-2df33e5b">
+    <view class="_view data-v-2df33e5b">
+      <view class="_view data-v-2df33e5b toolbar">
+        <view class="_view data-v-2df33e5b iconfont icon-bold" bindtap="handleProxy" data-eventid="{{'aIm-0'}}" data-comkey="{{$k}}"></view>
+        <view class="_view data-v-2df33e5b iconfont icon-italic" bindtap="handleProxy" data-eventid="{{'vK8-1'}}" data-comkey="{{$k}}"></view>
+        <view class="_view data-v-2df33e5b iconfont icon-xiahuaxian1" bindtap="handleProxy" data-eventid="{{'yMc-2'}}" data-comkey="{{$k}}"></view>
+        <view class="_view data-v-2df33e5b iconfont icon-underline" bindtap="handleProxy" data-eventid="{{'hMi-3'}}" data-comkey="{{$k}}"></view>
+        <view class="_view data-v-2df33e5b iconfont icon-strike" bindtap="handleProxy" data-eventid="{{'FQS-4'}}" data-comkey="{{$k}}"></view>
+        <view class="_view data-v-2df33e5b iconfont icon-sup" bindtap="handleProxy" data-eventid="{{'4fE-5'}}" data-comkey="{{$k}}"></view>
+        <view class="_view data-v-2df33e5b iconfont icon-sub" bindtap="handleProxy" data-eventid="{{'nXE-6'}}" data-comkey="{{$k}}"></view>
+        <view class="_view data-v-2df33e5b iconfont icon-alignleft" bindtap="handleProxy" data-eventid="{{'hmi-7'}}" data-comkey="{{$k}}"></view>
+        <view class="_view data-v-2df33e5b iconfont icon-aligncenter" bindtap="handleProxy" data-eventid="{{'buP-8'}}" data-comkey="{{$k}}"></view>
+        <view class="_view data-v-2df33e5b iconfont icon-alignright" bindtap="handleProxy" data-eventid="{{'mRp-9'}}" data-comkey="{{$k}}"></view>
+        <view class="_view data-v-2df33e5b iconfont icon-link" bindtap="handleProxy" data-eventid="{{'AU1-10'}}" data-comkey="{{$k}}"></view>
+        <view class="_view data-v-2df33e5b iconfont icon-image" bindtap="handleProxy" data-eventid="{{'xMG-11'}}" data-comkey="{{$k}}"></view>
+        <view class="_view data-v-2df33e5b iconfont icon-code" bindtap="handleProxy" data-eventid="{{'QsC-12'}}" data-comkey="{{$k}}"></view>
+        <view class="_view data-v-2df33e5b iconfont icon-table" bindtap="handleProxy" data-eventid="{{'IYG-13'}}" data-comkey="{{$k}}"></view>
+        <view class="_view data-v-2df33e5b iconfont icon-qingkong" bindtap="handleProxy" data-eventid="{{'Qg7-14'}}" data-comkey="{{$k}}"></view>
+      </view>
+      <view class="_view data-v-2df33e5b input-content">
+        <textarea auto-height maxlength="-1" value="{{textareaDataSync}}" bindinput="handleProxy" bindblur="handleProxy" data-eventid="{{'a5M-15'}}" data-comkey="{{$k}}" class="_textarea data-v-2df33e5b" />
+      </view>
+    </view>
+    <view class="_view data-v-2df33e5b preview" wx:if="{{showPreview && textareaHtmlSync}}">
+      <scroll-view scroll-y class="_scroll-view data-v-2df33e5b" style=" {{'height:' + screenHeight / 2.5 + 'px;padding:10px;box-sizing: border-box;'}}">
+        <template bindpreview="handleProxy" bindnavigate="handleProxy" data-eventid="{{'wyd-16'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'l0o-0'],$root}}" is="44c87b00"></template>
+      </scroll-view>
+    </view>
+  </view>
+</template>

@@ -1,0 +1,1 @@
+<import src="/pages/API/pull-down-refresh/pull-down-refresh.vue.wxml" /><template is="db2654ac" data="{{ ...$root['0'], $root }}"/>

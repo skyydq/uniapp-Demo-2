@@ -1,0 +1,48 @@
+<import src="/components/page-head.vue.wxml" />
+<template name="fbc37db6">
+  <view class="_view data-v-f3d81672">
+    <template data="{{...$root['0'], ...$root[$kk+'7wT-0'],$root}}" is="896c2190"></template>
+    <view class="_view data-v-f3d81672 uni-common-mt">
+      <view class="_view data-v-f3d81672 uni-form-item uni-column">
+        <view class="_view data-v-f3d81672 title">表单组件在label内</view>
+        <checkbox-group class="_checkbox-group data-v-f3d81672 uni-list" bindchange="handleProxy" data-eventid="{{'3bM-0'}}" data-comkey="{{$k}}">
+          <label class="_label data-v-f3d81672 uni-list-cell uni-list-cell-pd" wx:key="item.name" key="{{item.name}}" wx:for="{{checkboxItems}}" wx:for-index="index" wx:for-item="item">
+            <view class="_view data-v-f3d81672">
+              <checkbox value="{{item.name}}" checked="{{item.checked}}" class="_checkbox data-v-f3d81672"></checkbox>
+            </view>
+            <view class="_view data-v-f3d81672">{{item.value}}</view>
+          </label>
+        </checkbox-group>
+      </view>
+      <view class="_view data-v-f3d81672 uni-form-item uni-column">
+        <view class="_view data-v-f3d81672 title">label用for标识表单组件</view>
+        <radio-group class="_radio-group data-v-f3d81672 uni-list" bindchange="handleProxy" data-eventid="{{'iFC-1'}}" data-comkey="{{$k}}">
+          <label class="_label data-v-f3d81672 uni-list-cell uni-list-cell-pd" wx:key="index" key="{{index}}" wx:for="{{radioItems}}" wx:for-index="index" wx:for-item="item">
+            <view class="_view data-v-f3d81672">
+              <radio id="{{item.name}}" value="{{item.name}}" checked="{{item.checked}}" class="_radio data-v-f3d81672" />
+            </view>
+            <view class="_view data-v-f3d81672">
+              <label class="_label data-v-f3d81672 label-2-text" for="{{item.name}}">
+                <text class="_text data-v-f3d81672">{{item.value}}</text>
+              </label>
+            </view>
+          </label>
+        </radio-group>
+      </view>
+      <view class="_view data-v-f3d81672 uni-form-item uni-column">
+        <view class="_view data-v-f3d81672 title">label内有多个时选中第一个</view>
+        <checkbox-group class="_checkbox-group data-v-f3d81672 uni-list" bindchange="handleProxy" data-eventid="{{'ycK-2'}}" data-comkey="{{$k}}">
+          <label class="_label data-v-f3d81672 label-3">
+            <view class="_view data-v-f3d81672 uni-list-cell uni-list-cell-pd">
+              <checkbox class="_checkbox data-v-f3d81672 checkbox-3">选项一</checkbox>
+            </view>
+            <view class="_view data-v-f3d81672 uni-list-cell uni-list-cell-pd">
+              <checkbox class="_checkbox data-v-f3d81672 checkbox-3">选项二</checkbox>
+            </view>
+            <view class="_view data-v-f3d81672 uni-link uni-center" style="margin-top:20rpx;">点击该label下的文字默认选中第一个checkbox</view>
+          </label>
+        </checkbox-group>
+      </view>
+    </view>
+  </view>
+</template>

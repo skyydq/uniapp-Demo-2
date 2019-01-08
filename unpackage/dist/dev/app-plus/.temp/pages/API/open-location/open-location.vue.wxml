@@ -1,0 +1,49 @@
+<import src="/components/page-head.vue.wxml" />
+<template name="6496ca2c">
+  <view class="_view data-v-5cb404e8">
+    <template data="{{...$root['0'], ...$root[$kk+'C1h-0'],$root}}" is="896c2190"></template>
+    <view class="_view data-v-5cb404e8 uni-common-mt">
+      <form bindsubmit="handleProxy" data-eventid="{{'xo1-0'}}" data-comkey="{{$k}}" class="_form data-v-5cb404e8">
+        <view class="_view data-v-5cb404e8 uni-list">
+          <view class="_view data-v-5cb404e8 uni-list-cell">
+            <view class="_view data-v-5cb404e8 uni-list-cell-left">
+              <view class="_view data-v-5cb404e8 uni-label">经度</view>
+            </view>
+            <view class="_view data-v-5cb404e8 uni-list-cell-db">
+              <input class="_input data-v-5cb404e8 uni-input" type="text" disabled="{{true}}" value="116.39747" name="longitude" />
+            </view>
+          </view>
+          <view class="_view data-v-5cb404e8 uni-list-cell">
+            <view class="_view data-v-5cb404e8 uni-list-cell-left">
+              <view class="_view data-v-5cb404e8 uni-label">纬度</view>
+            </view>
+            <view class="_view data-v-5cb404e8 uni-list-cell-db">
+              <input class="_input data-v-5cb404e8 uni-input" type="text" disabled="{{true}}" value="39.9085" name="latitude" />
+            </view>
+          </view>
+          <view class="_view data-v-5cb404e8 uni-list-cell">
+            <view class="_view data-v-5cb404e8 uni-list-cell-left">
+              <view class="_view data-v-5cb404e8 uni-label">位置名称</view>
+            </view>
+            <view class="_view data-v-5cb404e8 uni-list-cell-db">
+              <input class="_input data-v-5cb404e8 uni-input" type="text" disabled="{{true}}" value="天安门" name="name" />
+            </view>
+          </view>
+          <view class="_view data-v-5cb404e8 uni-list-cell">
+            <view class="_view data-v-5cb404e8 uni-list-cell-left">
+              <view class="_view data-v-5cb404e8 uni-label">详细位置</view>
+            </view>
+            <view class="_view data-v-5cb404e8 uni-list-cell-db">
+              <input class="_input data-v-5cb404e8 uni-input" type="text" disabled="{{true}}" value="北京市东城区东长安街" name="address" />
+            </view>
+          </view>
+        </view>
+        <view class="_view data-v-5cb404e8 uni-padding-wrap">
+          <view class="_view data-v-5cb404e8 uni-btn-v uni-common-mt">
+            <button type="primary" formType="submit" class="_button data-v-5cb404e8">查看位置</button>
+          </view>
+        </view>
+      </form>
+    </view>
+  </view>
+</template>

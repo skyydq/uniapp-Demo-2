@@ -1,0 +1,33 @@
+<import src="/components/page-head.vue.wxml" />
+<template name="41d8d7a0">
+  <view class="_view data-v-28ab47dc">
+    <template data="{{...$root['0'], ...$root[$kk+'9PC-0'],$root}}" is="896c2190"></template>
+    <view class="_view data-v-28ab47dc uni-common-mt">
+      <view class="_view data-v-28ab47dc uni-list">
+        <view class="_view data-v-28ab47dc uni-list-cell">
+          <view class="_view data-v-28ab47dc uni-list-cell-left">
+            <view class="_view data-v-28ab47dc uni-label">key</view>
+          </view>
+          <view class="_view data-v-28ab47dc uni-list-cell-db">
+            <input class="_input data-v-28ab47dc uni-input" type="text" placeholder="请输入key" name="key" value="{{key}}" bindinput="handleProxy" data-eventid="{{'kQf-0'}}" data-comkey="{{$k}}" />
+          </view>
+        </view>
+        <view class="_view data-v-28ab47dc uni-list-cell">
+          <view class="_view data-v-28ab47dc uni-list-cell-left">
+            <view class="_view data-v-28ab47dc uni-label">value</view>
+          </view>
+          <view class="_view data-v-28ab47dc uni-list-cell-db">
+            <input class="_input data-v-28ab47dc uni-input" type="text" placeholder="请输入value" name="data" value="{{data}}" bindinput="handleProxy" data-eventid="{{'drZ-1'}}" data-comkey="{{$k}}" />
+          </view>
+        </view>
+      </view>
+      <view class="_view data-v-28ab47dc uni-padding-wrap">
+        <view class="_view data-v-28ab47dc uni-btn-v">
+          <button type="primary" class="_button data-v-28ab47dc btn-setstorage" bindtap="handleProxy" data-eventid="{{'0Ay-2'}}" data-comkey="{{$k}}">存储数据</button>
+          <button bindtap="handleProxy" data-eventid="{{'r0o-3'}}" data-comkey="{{$k}}" class="_button data-v-28ab47dc">读取数据</button>
+          <button bindtap="handleProxy" data-eventid="{{'4AL-4'}}" data-comkey="{{$k}}" class="_button data-v-28ab47dc">清理数据</button>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

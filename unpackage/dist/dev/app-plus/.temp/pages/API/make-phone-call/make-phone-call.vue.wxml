@@ -1,0 +1,13 @@
+<import src="/components/page-head.vue.wxml" />
+<template name="052da272">
+  <view class="_view data-v-04980354">
+    <template data="{{...$root['0'], ...$root[$kk+'tVu-0'],$root}}" is="896c2190"></template>
+    <view class="_view data-v-04980354 uni-padding-wrap uni-common-mt">
+      <view class="_view data-v-04980354 uni-hello-text uni-center">请在下方输入电话号码</view>
+      <input class="_input data-v-04980354 input uni-common-mt" type="number" name="input" bindinput="handleProxy" data-eventid="{{'SEF-0'}}" data-comkey="{{$k}}" />
+      <view class="_view data-v-04980354 uni-btn-v uni-common-mt">
+        <button bindtap="handleProxy" type="primary" disabled="{{disabled}}" data-eventid="{{'IW5-1'}}" data-comkey="{{$k}}" class="_button data-v-04980354">拨打</button>
+      </view>
+    </view>
+  </view>
+</template>

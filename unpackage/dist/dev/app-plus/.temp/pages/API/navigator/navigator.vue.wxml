@@ -1,0 +1,15 @@
+<import src="/components/page-head.vue.wxml" />
+<template name="474b2a28">
+  <view class="_view data-v-0c3ec04a">
+    <template data="{{...$root['0'], ...$root[$kk+'4hU-0'],$root}}" is="896c2190"></template>
+    <view class="_view data-v-0c3ec04a uni-padding-wrap uni-common-mt">
+      <view class="_view data-v-0c3ec04a uni-btn-v">
+        <button bindtap="handleProxy" data-eventid="{{'oiy-0'}}" data-comkey="{{$k}}" class="_button data-v-0c3ec04a">跳转新页面，并传递数据</button>
+        <button bindtap="handleProxy" data-eventid="{{'GfB-1'}}" data-comkey="{{$k}}" class="_button data-v-0c3ec04a">返回上一页</button>
+        <button bindtap="handleProxy" data-eventid="{{'eUg-2'}}" data-comkey="{{$k}}" class="_button data-v-0c3ec04a">在当前页面打开</button>
+        <button bindtap="handleProxy" data-eventid="{{'4RN-3'}}" data-comkey="{{$k}}" class="_button data-v-0c3ec04a">切换到模板选项卡</button>
+        <button bindtap="handleProxy" data-eventid="{{'gXr-4'}}" data-comkey="{{$k}}" class="_button data-v-0c3ec04a">关闭所有页面，打开首页</button>
+      </view>
+    </view>
+  </view>
+</template>

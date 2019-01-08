@@ -1,0 +1,18 @@
+<import src="/components/page-head.vue.wxml" />
+<template name="1df4bee6">
+  <view class="_view data-v-3a2f55f0">
+    <template data="{{...$root['0'], ...$root[$kk+'IVR-0'],$root}}" is="896c2190"></template>
+    <view class="_view data-v-3a2f55f0 uni-padding-wrap">
+      <view class="_view data-v-3a2f55f0 uni-title">请输入剪贴板内容</view>
+      <view class="_view data-v-3a2f55f0 uni-list">
+        <view class="_view data-v-3a2f55f0 uni-list-cell">
+          <input class="_input data-v-3a2f55f0 uni-input" type="text" placeholder="请输入剪贴板内容" value="{{data}}" bindinput="handleProxy" data-eventid="{{'qrZ-0'}}" data-comkey="{{$k}}" />
+        </view>
+      </view>
+      <view class="_view data-v-3a2f55f0 uni-btn-v">
+        <button type="primary" bindtap="handleProxy" data-eventid="{{'mxJ-1'}}" data-comkey="{{$k}}" class="_button data-v-3a2f55f0">存储数据</button>
+        <button bindtap="handleProxy" data-eventid="{{'vns-2'}}" data-comkey="{{$k}}" class="_button data-v-3a2f55f0">读取数据</button>
+      </view>
+    </view>
+  </view>
+</template>

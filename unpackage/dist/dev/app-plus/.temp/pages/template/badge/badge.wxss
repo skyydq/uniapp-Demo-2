@@ -1,0 +1,5 @@
+@import "../../../common/vendor.wxss";
+
+.uni-badge {
+  margin: 20rpx;
+}

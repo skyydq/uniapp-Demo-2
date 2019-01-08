@@ -1,0 +1,15 @@
+<import src="/components/page-head.vue.wxml" />
+<import src="/components/uni-icon.vue.wxml" />
+<template name="1003b39c">
+  <view class="_view data-v-663251ec">
+    <template data="{{...$root['0'], ...$root[$kk+'iaq-0'],$root}}" is="896c2190"></template>
+    <view class="_view data-v-663251ec uni-padding-wrap uni-common-mt">
+      <view class="_view data-v-663251ec uni-title">
+        <template size="16" type="info" data="{{...$root['0'], ...$root[$kk+'WLy-1'],$root}}" is="0a6a4d68"></template>说明 : </view>
+      <view class="_view data-v-663251ec uni-helllo-text">
+        <view class="_view data-v-663251ec">在App端可在pages.json里配置buttons，暂不支持动态改变buttons的样式，使用onNavigationBarButtonTap可监听buttons的点击事件。</view>
+        <view class="_view data-v-663251ec">在小程序端，不支持配置buttons，故按钮不见了。</view>
+      </view>
+    </view>
+  </view>
+</template>

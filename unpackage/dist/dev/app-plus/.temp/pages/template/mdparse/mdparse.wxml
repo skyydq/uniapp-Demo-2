@@ -1,0 +1,1 @@
+<import src="/pages/template/mdparse/mdparse.vue.wxml" /><template is="d8a2f81c" data="{{ ...$root['0'], $root }}"/>

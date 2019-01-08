@@ -1,0 +1,12 @@
+@import "../../../common/vendor.wxss";
+
+.list-collapse {
+  padding-left: 36rpx;
+  box-sizing: border-box;
+}
+image {
+  width: 100%;
+}
+.page-pd {
+  padding: 36rpx;
+}

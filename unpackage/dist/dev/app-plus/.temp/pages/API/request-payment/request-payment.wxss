@@ -1,0 +1,9 @@
+@import "../../../common/vendor.wxss";
+
+.rmbLogo {
+  font-size: 40rpx;
+}
+._button {
+  background-color: #007aff;
+  color: #ffffff;
+}

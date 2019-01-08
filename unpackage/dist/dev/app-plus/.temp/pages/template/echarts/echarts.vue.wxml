@@ -1,0 +1,20 @@
+<import src="/components/mpvue-echarts/src/echarts.vue.wxml" />
+<template name="e32b2a24">
+  <view class="_view data-v-5e4c0f40 container">
+    <view class="_view data-v-5e4c0f40 page-section-title" style="display: block;">
+      <view class="_view data-v-5e4c0f40 uni-hello-text uni-common-pb"> 这是uni-app集成mpvue-echarts的图表示例，mpvue-echarts组件的用法参考： </view>
+      <text class="_text data-v-5e4c0f40 navigate" bindtap="handleProxy" selectable data-eventid="{{'ReX-0'}}" data-comkey="{{$k}}">https://github.com/F-loat/mpvue-echarts</text>
+    </view>
+    <view class="_view data-v-5e4c0f40 canvasView">
+      <view class="_view data-v-5e4c0f40 canvas-bar">
+        <view class="_view data-v-5e4c0f40 title">饼图示例</view>
+        <button class="_button data-v-5e4c0f40 update-btn" type="primary" size="mini" bindtap="handleProxy" data-eventid="{{'AIc-1'}}" data-comkey="{{$k}}">修改饼状图数据</button>
+      </view>
+      <template canvasId="pie" ref="pieChart" data="{{...$root['0'], ...$root[$kk+'w7o-0'],$root}}" is="34317030"></template>
+    </view>
+    <view class="_view data-v-5e4c0f40 canvasView">
+      <view class="_view data-v-5e4c0f40 title">折线图示例</view>
+      <template canvasId="line" ref="lineChart" data="{{...$root['0'], ...$root[$kk+'MiV-1'],$root}}" is="34317030"></template>
+    </view>
+  </view>
+</template>

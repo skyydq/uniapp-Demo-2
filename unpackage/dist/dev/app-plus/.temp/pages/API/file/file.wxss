@@ -1,0 +1,10 @@
+@import "../../../common/vendor.wxss";
+
+.image {
+  width: 100%;
+  height: 360rpx;
+}
+.btn-savefile {
+  background-color: #007aff;
+  color: #ffffff;
+}

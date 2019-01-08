@@ -1,0 +1,34 @@
+<import src="/components/uni-segmented-control.vue.wxml" />
+<template name="33b16c84">
+  <view class="_view data-v-4cc6fd50">
+    <view class="_view data-v-4cc6fd50 uni-padding-wrap uni-common-mt">
+      <template bindclickItem="handleProxy" data-eventid="{{'gn4-0'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'Oc3-0'],$root}}" is="d885e742"></template>
+    </view>
+    <view class="_view data-v-4cc6fd50 content">
+      <view hidden="{{!(current === 0)}}" class="_view data-v-4cc6fd50"> 选项卡1的内容 </view>
+      <view hidden="{{!(current === 1)}}" class="_view data-v-4cc6fd50"> 选项卡2的内容 </view>
+      <view hidden="{{!(current === 2)}}" class="_view data-v-4cc6fd50"> 选项卡3的内容 </view>
+    </view>
+    <view class="_view data-v-4cc6fd50 uni-padding-wrap uni-common-mt">
+      <view class="_view data-v-4cc6fd50 uni-title">Style</view>
+    </view>
+    <view class="_view data-v-4cc6fd50 uni-list">
+      <radio-group bindchange="handleProxy" data-eventid="{{'QmV-1'}}" data-comkey="{{$k}}" class="_radio-group data-v-4cc6fd50">
+        <label class="_label data-v-4cc6fd50 uni-list-cell uni-list-cell-pd" wx:key="index" key="{{index}}" wx:for="{{styles}}" wx:for-index="index" wx:for-item="item"> {{item.text}}
+          <radio value="{{item.value}}" checked="{{index === styleIndex}}" class="_radio data-v-4cc6fd50" />
+        </label>
+      </radio-group>
+    </view>
+    <view class="_view data-v-4cc6fd50 uni-padding-wrap uni-common-mt">
+      <view class="_view data-v-4cc6fd50 uni-title">Color</view>
+    </view>
+    <view class="_view data-v-4cc6fd50 uni-list">
+      <radio-group bindchange="handleProxy" data-eventid="{{'Ytk-2'}}" data-comkey="{{$k}}" class="_radio-group data-v-4cc6fd50">
+        <label class="_label data-v-4cc6fd50 uni-list-cell uni-list-cell-pd" wx:key="index" key="{{index}}" wx:for="{{colors}}" wx:for-index="index" wx:for-item="item">
+          <view class="_view data-v-4cc6fd50 color-tag" style=" {{('background-color:' + item + ';')}}"></view>
+          <radio value="{{item}}" checked="{{index === colorIndex}}" class="_radio data-v-4cc6fd50" />
+        </label>
+      </radio-group>
+    </view>
+  </view>
+</template>

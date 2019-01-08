@@ -1,0 +1,1 @@
+<import src="/pages/template/cardview/cardview.vue.wxml" /><template is="49fdb152" data="{{ ...$root['0'], $root }}"/>

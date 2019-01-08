@@ -1,0 +1,1 @@
+<import src="/pages/template/number-box/number-box.vue.wxml" /><template is="11729d52" data="{{ ...$root['0'], $root }}"/>

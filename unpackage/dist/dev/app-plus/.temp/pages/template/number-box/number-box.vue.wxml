@@ -1,0 +1,42 @@
+<import src="/components/page-head.vue.wxml" />
+<import src="/components/uni-number-box.vue.wxml" />
+<template name="11729d52">
+  <view class="_view data-v-334963ac page">
+    <template data="{{...$root['0'], ...$root[$kk+'flv-0'],$root}}" is="896c2190"></template>
+    <view class="_view data-v-334963ac uni-input-group uni-common-mt">
+      <view class="_view data-v-334963ac uni-input-row">
+        <label class="_label data-v-334963ac">默认</label>
+        <template data="{{...$root['0'], ...$root[$kk+'eMr-1'],$root}}" is="55174eda"></template>
+      </view>
+      <view class="_view data-v-334963ac uni-input-row">
+        <label class="_label data-v-334963ac">限定最小值和最大值</label>
+        <template data="{{...$root['0'], ...$root[$kk+'Sz0-2'],$root}}" is="55174eda"></template>
+      </view>
+      <view class="_view data-v-334963ac uni-input-row">
+        <label class="_label data-v-334963ac">设定步长值（步长10）</label>
+        <template data="{{...$root['0'], ...$root[$kk+'Ubl-3'],$root}}" is="55174eda"></template>
+      </view>
+      <view class="_view data-v-334963ac uni-input-row">
+        <label class="_label data-v-334963ac">输入框只读</label>
+        <template data="{{...$root['0'], ...$root[$kk+'hlw-4'],$root}}" is="55174eda"></template>
+      </view>
+      <view class="_view data-v-334963ac uni-input-row">
+        <label class="_label data-v-334963ac">获取输入的值 : {{numberValue}}</label>
+        <template bindchange="handleProxy" data-eventid="{{'1B4-0'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'Bvz-5'],$root}}" is="55174eda"></template>
+      </view>
+      <view class="_view data-v-334963ac uni-input-row">
+        <label class="_label data-v-334963ac">设置默认值</label>
+        <template data="{{...$root['0'], ...$root[$kk+'2cg-6'],$root}}" is="55174eda"></template>
+      </view>
+    </view>
+    <view class="_view data-v-334963ac uni-padding-wrap uni-common-mt">
+      <view class="_view data-v-334963ac uni-title">行内应用</view>
+      <view class="_view data-v-334963ac uni-inline-item">
+        <text class="_text data-v-334963ac">购买数量 : </text>
+        <template bindchange="handleProxy" data-eventid="{{'Wss-1'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'RAg-7'],$root}}" is="55174eda"></template>
+        <text class="_text data-v-334963ac">{{numberValue3}}</text>
+      </view>
+    </view>
+    <view style="height:80rpx;" class="_view data-v-334963ac"></view>
+  </view>
+</template>

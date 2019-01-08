@@ -1,0 +1,18 @@
+<import src="/components/page-foot.vue.wxml" />
+<template name="546e5bfc">
+  <view class="_view data-v-1e242dd8 container">
+    <view class="_view data-v-1e242dd8 page-body">
+      <scroll-view class="_scroll-view data-v-1e242dd8 nav-left" scroll-y style=" {{'height:' + height + 'px'}}">
+        <view class="_view data-v-1e242dd8 nav-left-item {{index == categoryActive ? 'active' : ''}}" bindtap="handleProxy" wx:key="index" key="{{index}}" data-eventid="{{'WqC-0-'+index}}" data-comkey="{{$k}}" wx:for="{{categoryList}}" wx:for-index="index"
+          wx:for-item="item"> {{item.NAME}} </view>
+      </scroll-view>
+      <scroll-view class="_scroll-view data-v-1e242dd8 nav-right" scroll-y scroll-top="{{scrollTop}}" bindscroll="handleProxy" scroll-with-animation data-eventid="{{'zeQ-1'}}" data-comkey="{{$k}}" style=" {{'height:' + height + 'px'}}">
+        <view id="{{index===0?'first':''}}" class="_view data-v-1e242dd8 nav-right-item" wx:key="index" key="{{index}}" wx:for="{{subCategoryList}}" wx:for-index="index" wx:for-item="item">
+          <image src="{{item.LOGO}}" class="_image data-v-1e242dd8"></image>
+          <view class="_view data-v-1e242dd8">{{item.NAME}}</view>
+        </view>
+        <template wx:if="{{subCategoryList.length > 1}}" data="{{...$root['0'], ...$root[$kk+'Dce-0'],$root}}" is="154b36c6"></template>
+      </scroll-view>
+    </view>
+  </view>
+</template>

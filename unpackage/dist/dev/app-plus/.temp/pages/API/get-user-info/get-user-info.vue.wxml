@@ -1,0 +1,25 @@
+<import src="/components/page-head.vue.wxml" />
+<template name="1c5f0bec">
+  <view class="_view data-v-20506e8e">
+    <template data="{{...$root['0'], ...$root[$kk+'CzO-0'],$root}}" is="896c2190"></template>
+    <view class="_view data-v-20506e8e uni-padding-wrap">
+      <view style="background:#FFF; padding:40rpx;" class="_view data-v-20506e8e">
+        <block wx:if="{{hasUserInfo === false}}">
+          <view class="_view data-v-20506e8e uni-hello-text uni-center">
+            <text class="_text data-v-20506e8e">请点击下方按钮获取用户头像及昵称</text>
+          </view>
+        </block>
+        <block wx:if="{{hasUserInfo === true}}">
+          <view class="_view data-v-20506e8e uni-h4 uni-center uni-common-mt">{{userInfo.nickName}}</view>
+          <view style="padding:30rpx 0; text-align:center;" class="_view data-v-20506e8e">
+            <image class="_image data-v-20506e8e userinfo-avatar" src="{{userInfo.avatarUrl}}"></image>
+          </view>
+        </block>
+      </view>
+      <view class="_view data-v-20506e8e uni-btn-v">
+        <button type="primary" bindtap="handleProxy" data-eventid="{{'jmA-0'}}" data-comkey="{{$k}}" class="_button data-v-20506e8e">获取用户信息</button>
+        <button bindtap="handleProxy" data-eventid="{{'bPd-1'}}" data-comkey="{{$k}}" class="_button data-v-20506e8e">清空</button>
+      </view>
+    </view>
+  </view>
+</template>

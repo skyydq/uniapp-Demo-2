@@ -1,0 +1,9 @@
+@import "../../../common/vendor.wxss";
+
+.image {
+  width: 100%;
+}
+.demo {
+  background: #FFF;
+  padding: 50rpx;
+}

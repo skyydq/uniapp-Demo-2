@@ -1,0 +1,23 @@
+<import src="/components/page-head.vue.wxml" />
+<template name="1c9d681c">
+  <view class="_view data-v-0faf54cc">
+    <template data="{{...$root['0'], ...$root[$kk+'TEf-0'],$root}}" is="896c2190"></template>
+    <view class="_view data-v-0faf54cc">
+      <form bindsubmit="handleProxy" data-eventid="{{'Kwe-0'}}" data-comkey="{{$k}}" class="_form data-v-0faf54cc">
+        <view class="_view data-v-0faf54cc uni-list">
+          <view class="_view data-v-0faf54cc uni-list-cell">
+            <view class="_view data-v-0faf54cc uni-list-cell-left"> 页面标题 </view>
+            <view class="_view data-v-0faf54cc uni-list-cell-db">
+              <input class="_input data-v-0faf54cc uni-input" type="text" placeholder="请输入页面标题并点击设置即可" name="title" />
+            </view>
+          </view>
+        </view>
+        <view class="_view data-v-0faf54cc uni-padding-wrap">
+          <view class="_view data-v-0faf54cc uni-btn-v">
+            <button type="primary" formType="submit" class="_button data-v-0faf54cc">设置</button>
+          </view>
+        </view>
+      </form>
+    </view>
+  </view>
+</template>

@@ -1,0 +1,46 @@
+<import src="/components/page-head.vue.wxml" />
+<template name="a088fb96">
+  <view class="_view data-v-09fb165d">
+    <template data="{{...$root['0'], ...$root[$kk+'8jR-0'],$root}}" is="896c2190"></template>
+    <view class="_view data-v-09fb165d uni-padding-wrap uni-common-mt">
+      <form bindsubmit="handleProxy" bindreset="handleProxy" data-eventid="{{'Q8V-0'}}" data-comkey="{{$k}}" class="_form data-v-09fb165d">
+        <view class="_view data-v-09fb165d uni-form-item uni-column">
+          <view class="_view data-v-09fb165d title">switch</view>
+          <view class="_view data-v-09fb165d">
+            <switch name="switch" class="_switch data-v-09fb165d" />
+          </view>
+        </view>
+        <view class="_view data-v-09fb165d uni-form-item uni-column">
+          <view class="_view data-v-09fb165d title">radio</view>
+          <radio-group name="radio" class="_radio-group data-v-09fb165d">
+            <label class="_label data-v-09fb165d">
+              <radio value="radio1" class="_radio data-v-09fb165d" />选项一 </label>
+            <label class="_label data-v-09fb165d">
+              <radio value="radio2" class="_radio data-v-09fb165d" />选项二 </label>
+          </radio-group>
+        </view>
+        <view class="_view data-v-09fb165d uni-form-item uni-column">
+          <view class="_view data-v-09fb165d title">checkbox</view>
+          <checkbox-group name="checkbox" class="_checkbox-group data-v-09fb165d">
+            <label class="_label data-v-09fb165d">
+              <checkbox value="checkbox1" class="_checkbox data-v-09fb165d"></checkbox>选项一 </label>
+            <label class="_label data-v-09fb165d">
+              <checkbox value="checkbox2" class="_checkbox data-v-09fb165d"></checkbox>选项二 </label>
+          </checkbox-group>
+        </view>
+        <view class="_view data-v-09fb165d uni-form-item uni-column">
+          <view class="_view data-v-09fb165d title">slider</view>
+          <slider value="50" name="slider" show-value class="_slider data-v-09fb165d" />
+        </view>
+        <view class="_view data-v-09fb165d uni-form-item uni-column">
+          <view class="_view data-v-09fb165d title">input</view>
+          <input class="_input data-v-09fb165d uni-input" name="input" placeholder="这是一个输入框" />
+        </view>
+        <view class="_view data-v-09fb165d uni-btn-v">
+          <button formType="submit" class="_button data-v-09fb165d">Submit</button>
+          <button type="default" formType="reset" class="_button data-v-09fb165d">Reset</button>
+        </view>
+      </form>
+    </view>
+  </view>
+</template>

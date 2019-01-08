@@ -1,0 +1,30 @@
+<template name="79e7f44a">
+  <view class="_view data-v-a4935cc8 page">
+    <view class="_view data-v-a4935cc8 img-view" wx:if="{{!showSwiper}}">
+      <image src="{{imgUrls[0]}}" class="_image data-v-a4935cc8"></image>
+    </view>
+    <swiper wx:if="{{showSwiper}}" indicator-dots="true" class="_swiper data-v-a4935cc8">
+      <swiper-item wx:key="key" key="{{key}}" wx:for="{{imgUrls}}" wx:for-index="key" wx:for-item="img" class="_swiper-item data-v-a4935cc8">
+        <image src="{{img}}" class="_image data-v-a4935cc8"></image>
+      </swiper-item>
+    </swiper>
+    <view class="_view data-v-a4935cc8 uni-padding-wrap uni-common-mt">
+      <view class="_view data-v-a4935cc8 uni-title">
+        <view class="_view data-v-a4935cc8">在App端默认为标题栏透明，当用户向下滚动时，标题栏逐渐由透明转变为不透明；当用户再次向上滚动时，标题栏又从不透明变为透明状态。</view>
+        <view class="_view data-v-a4935cc8">在微信小程序端，导航栏始终为不透明样式。</view>
+      </view>
+      <view class="_view data-v-a4935cc8 uni-title uni-common-mt">图片类型</view>
+    </view>
+    <view class="_view data-v-a4935cc8 uni-list">
+      <radio-group bindchange="handleProxy" data-eventid="{{'c5C-0'}}" data-comkey="{{$k}}" class="_radio-group data-v-a4935cc8">
+        <label class="_label data-v-a4935cc8 uni-list-cell uni-list-cell-pd" wx:key="index" key="{{index}}" wx:for="{{items}}" wx:for-index="index" wx:for-item="item">
+          <view class="_view data-v-a4935cc8">{{item.name}}</view>
+          <view class="_view data-v-a4935cc8">
+            <radio value="{{item.value}}" checked="{{item.checked}}" class="_radio data-v-a4935cc8" />
+          </view>
+        </label>
+      </radio-group>
+    </view>
+    <view style="height: 1000rpx;" class="_view data-v-a4935cc8"></view>
+  </view>
+</template>

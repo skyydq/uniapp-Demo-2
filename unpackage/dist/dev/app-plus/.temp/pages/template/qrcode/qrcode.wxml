@@ -1,0 +1,1 @@
+<import src="/pages/template/qrcode/qrcode.vue.wxml" /><template is="64c03ff2" data="{{ ...$root['0'], $root }}"/>

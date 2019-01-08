@@ -1,0 +1,20 @@
+<import src="/components/page-head.vue.wxml" />
+<template name="106c2e76">
+  <view class="_view data-v-3f930727">
+    <template data="{{...$root['0'], ...$root[$kk+'4kc-0'],$root}}" is="896c2190"></template>
+    <view class="_view data-v-3f930727 uni-padding-wrap">
+      <view class="_view data-v-3f930727 uni-title"> 日期：{{year}}年{{month}}月{{day}}日 </view>
+    </view>
+    <picker-view wx:if="{{visible}}" indicator-style="{{indicatorStyle}}" value="{{value}}" bindchange="handleProxy" data-eventid="{{'qMR-0'}}" data-comkey="{{$k}}" class="_picker-view data-v-3f930727">
+      <picker-view-column class="_picker-view-column data-v-3f930727">
+        <view class="_view data-v-3f930727 item" wx:key="index" key="{{index}}" wx:for="{{years}}" wx:for-index="index" wx:for-item="item">{{item}}年</view>
+      </picker-view-column>
+      <picker-view-column class="_picker-view-column data-v-3f930727">
+        <view class="_view data-v-3f930727 item" wx:key="index" key="{{index}}" wx:for="{{months}}" wx:for-index="index" wx:for-item="item">{{item}}月</view>
+      </picker-view-column>
+      <picker-view-column class="_picker-view-column data-v-3f930727">
+        <view class="_view data-v-3f930727 item" wx:key="index" key="{{index}}" wx:for="{{days}}" wx:for-index="index" wx:for-item="item">{{item}}日</view>
+      </picker-view-column>
+    </picker-view>
+  </view>
+</template>
